@@ -1,0 +1,36 @@
+/* Asigna className="grid-container" al div que contiene el .map() en ProductList.jsx */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+
+/* Contenedor de botones */
+.filter-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+/* Estilo base para los botones */
+.filter-btn {
+  background-color: transparent;
+  color: #dfd7d7;
+  border: 1px solid #444;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Efecto al pasar el cursor */
+.filter-btn:hover {
+  background-color: #ffffff;
+  color: #121212;
+  border-color: #ffffff;
+}

@@ -1,12 +1,25 @@
-import './App.css'
-import Ejercicio from "./components/Ejercicio";
+import './App.css';
+import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
+import Productos from './vistas/productos/Productos';
+
+
+
 
 function App () {
   return ( 
     <>
-    <Ejercicio/>
+    <Navbar />
+
+     <Productos />
+
+      <main>
+        <h2>Taller React</h2>
+        <p>Taller de productos en react</p>
+      </main>
+
+    <Footer / >
     
-  
     </>
   
   )

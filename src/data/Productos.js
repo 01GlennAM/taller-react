@@ -218,5 +218,9 @@ export const producto = [
         pesoAprox: "2kg",
         organico: false,
       }
+      
   }
+  
 ]
+
+export default producto;
