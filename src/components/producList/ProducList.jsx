@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Card from '../card/Card';
 import productos  from "../../data/productos";
+import "./ProducList.css";
+
 
 function ProductList() {
   const [listaProductos, setListaProductos] = useState(productos);
@@ -11,12 +13,12 @@ function ProductList() {
 
       <p>Total de productos: {listaProductos.length}</p>
 
-      <div>
-        <button onClick={() => setListaProductos(productos)}>
+      <div className="filter-container"> 
+        <button className="filter-btn" onClick={() => setListaProductos(productos)}>
           Mostrar todos
         </button>
 
-        <button
+        <button className="filter-btn"
           onClick={() => {
             const productosOrganicos = productos.filter(
               (producto) => producto.caracteristicas.organico
@@ -29,7 +31,7 @@ function ProductList() {
         </button>
       </div>
 
-      <div>
+      <div className="grid-container">
         {listaProductos.map((producto) => (
           <Card
             key={producto.id}

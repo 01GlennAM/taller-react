@@ -1,7 +1,9 @@
+import "./Footer.css";
+
 function Footer() {
   return (
     <footer>
-      <p>© 2026 Taller</p>
+      <p>© 2026 </p>
     </footer>
   );
 }

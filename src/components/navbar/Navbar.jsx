@@ -1,11 +1,17 @@
+import "./Navbar.css";
+
 function Navbar() {
   return (
-    <nav>
-      <h1>Taller</h1>
+    <nav className="navbar">
+      <h1 className="logo">Taller</h1>
 
       <ul>
-        <li>Inicio</li>
-        <li>items</li>
+        <li>
+          <a href="inicio">Inicio</a>
+        </li>
+        <li>
+          <a href="#items">Items</a>
+        </li>
       </ul>
     </nav>
   );

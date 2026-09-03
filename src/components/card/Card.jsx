@@ -1,6 +1,8 @@
+import "./Card.css";
+
 function Card({ producto }) {
   return (
-    <article>
+    <article className="card-item">
       <h3>{producto.nombre}</h3>
 
       <p>Precio: ${producto.precio}</p>
