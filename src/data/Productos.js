@@ -3,6 +3,7 @@ export const producto = [
       id: 1,
       nombre: "banano",
       precio: 2000,
+      imagen: "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=500",
       caracteristicas: {
         color: "amarillo",
         origen: "nacional",
@@ -14,6 +15,7 @@ export const producto = [
       id: 2,
       nombre: "manzana",
       precio: 3000,
+      imagen: "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=500",
       caracteristicas: {
         color: "rojo",
         origen: "importado",
@@ -25,6 +27,7 @@ export const producto = [
       id: 3,
       nombre: "pera",
       precio: 2500,
+      imagen: "https://images.pexels.com/photos/35145219/pexels-photo-35145219.jpeg",
       caracteristicas: {
         color: "verde",
         origen: "importado",
@@ -36,6 +39,7 @@ export const producto = [
       id: 4,
       nombre: "naranja",
       precio: 1800,
+      imagen: "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500",
       caracteristicas: {
         color: "anaranjado",
         origen: "nacional",
@@ -47,6 +51,7 @@ export const producto = [
       id: 5,
       nombre: "fresa",
       precio: 4000,
+      imagen: "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=500",
       caracteristicas: {
         color: "rojo",
         origen: "nacional",
@@ -58,6 +63,7 @@ export const producto = [
       id: 6,
       nombre: "uva",
       precio: 5000,
+      imagen: "https://images.unsplash.com/photo-1537640538966-79f369143f8f?w=500",
       caracteristicas: {
         color: "morado",
         origen: "importado",
@@ -69,6 +75,7 @@ export const producto = [
       id: 7,
       nombre: "mango",
       precio: 3500,
+      imagen: "https://images.unsplash.com/photo-1553279768-865429fa0078?w=500",
       caracteristicas: {
         color: "amarillo/rojo",
         origen: "nacional",
@@ -80,6 +87,7 @@ export const producto = [
       id: 8,
       nombre: "piña",
       precio: 4500,
+      imagen: "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=500",
       caracteristicas: {
         color: "amarillo",
         origen: "nacional",
@@ -91,6 +99,7 @@ export const producto = [
       id: 9,
       nombre: "papaya",
       precio: 3800,
+      imagen: "https://plus.unsplash.com/premium_photo-1722938907181-08d806f7b9a6?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       caracteristicas: {
         color: "anaranjado",
         origen: "nacional",
@@ -102,6 +111,7 @@ export const producto = [
       id: 10,
       nombre: "sandía",
       precio: 6000,
+      imagen: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       caracteristicas: {
         color: "verde/rojo",
         origen: "nacional",
@@ -113,6 +123,7 @@ export const producto = [
       id: 11,
       nombre: "limón",
       precio: 1200,
+      imagen: "https://images.pexels.com/photos/18585100/pexels-photo-18585100.jpeg",
       caracteristicas: {
         color: "verde",
         origen: "nacional",
@@ -124,6 +135,7 @@ export const producto = [
       id: 12,
       nombre: "durazno",
       precio: 3200,
+      imagen: "https://images.pexels.com/photos/8676230/pexels-photo-8676230.jpeg",
       caracteristicas: {
         color: "rosado/amarillo",
         origen: "importado",
@@ -135,6 +147,7 @@ export const producto = [
       id: 13,
       nombre: "aguacate",
       precio: 4200,
+      imagen: "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?w=500",
       caracteristicas: {
         color: "verde oscuro",
         origen: "nacional",
@@ -146,6 +159,7 @@ export const producto = [
       id: 14,
       nombre: "coco",
       precio: 4800,
+      imagen: "https://images.pexels.com/photos/1652001/pexels-photo-1652001.jpeg",
       caracteristicas: {
         color: "marrón",
         origen: "nacional",
@@ -157,6 +171,7 @@ export const producto = [
       id: 15,
       nombre: "kiwi",
       precio: 5500,
+      imagen: "https://images.pexels.com/photos/7156083/pexels-photo-7156083.jpeg",
       caracteristicas: {
         color: "marrón/verde",
         origen: "importado",
@@ -168,6 +183,7 @@ export const producto = [
       id: 16,
       nombre: "mora",
       precio: 3000,
+      imagen: "https://images.pexels.com/photos/31277294/pexels-photo-31277294.jpeg",
       caracteristicas: {
         color: "negro/morado",
         origen: "nacional",
@@ -179,6 +195,7 @@ export const producto = [
       id: 17,
       nombre: "maracuyá",
       precio: 2800,
+      imagen: "https://images.pexels.com/photos/3827425/pexels-photo-3827425.jpeg",
       caracteristicas: {
         color: "amarillo",
         origen: "nacional",
@@ -190,6 +207,7 @@ export const producto = [
       id: 18,
       nombre: "guayaba",
       precio: 2200,
+      imagen: "https://images.pexels.com/photos/28884216/pexels-photo-28884216.jpeg",
       caracteristicas: {
         color: "rosado/verde",
         origen: "nacional",
@@ -201,6 +219,7 @@ export const producto = [
       id: 19,
       nombre: "cereza",
       precio: 7000,
+      imagen: "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=500",
       caracteristicas: {
         color: "rojo oscuro",
         origen: "importado",
@@ -212,15 +231,14 @@ export const producto = [
       id: 20,
       nombre: "melón",
       precio: 5000,
+      imagen: "https://images.pexels.com/photos/7657300/pexels-photo-7657300.jpeg",
       caracteristicas: {
         color: "amarillo/blanco",
         origen: "nacional",
         pesoAprox: "2kg",
         organico: false,
       }
-      
-  }
-  
-]
+    }
+];
 
 export default producto;

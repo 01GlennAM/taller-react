@@ -9,15 +9,12 @@ function ProductList() {
 
   return (
     <section>
-      <h2>Productos</h2>
-
-      <p>Total de productos: {listaProductos.length}</p>
-
       <div className="filter-container"> 
         <button className="filter-btn" onClick={() => setListaProductos(productos)}>
           Mostrar todos
         </button>
-
+{/* 
+        filtramos los productos organicos buscandolo en productos y los metemos en setLista...  */}
         <button className="filter-btn"
           onClick={() => {
             const productosOrganicos = productos.filter(
@@ -29,7 +26,35 @@ function ProductList() {
         >
           Mostrar orgánicos
         </button>
+
+        <button className="filter-btn"
+          onClick={() => {
+            const productosNacional = productos.filter(
+              (producto) => producto.caracteristicas.origen ==="nacional"
+            );
+
+            setListaProductos(productosNacional);
+          }}
+        >
+          Mostrar Nacional
+        </button>
+
+          <button className="filter-btn"
+          onClick={() => {
+            const productosImportado = productos.filter(
+              (producto) => producto.caracteristicas.origen === "importado"
+            );
+
+            setListaProductos(productosImportado);
+          }}
+        >
+          Mostrar Importado
+        </button>
       </div>
+
+      {/* muestro la cantidad de productos */}
+      <p>Total de productos: {listaProductos.length}</p>
+
 
       <div className="grid-container">
         {listaProductos.map((producto) => (

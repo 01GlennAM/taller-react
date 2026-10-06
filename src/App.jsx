@@ -18,7 +18,7 @@ function App () {
         <p>Taller de productos en react</p>
       </main>
 
-    <Footer / >
+    <Footer />
     
     </>
   
@@ -26,4 +26,4 @@ function App () {
   
 }
 
-export default App
+export default App; 
