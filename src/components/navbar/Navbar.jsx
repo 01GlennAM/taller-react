@@ -3,7 +3,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h1 className="logo">Taller</h1>
+      <h1 className="logo">Taller React</h1>
 
       <ul>
         <li>
